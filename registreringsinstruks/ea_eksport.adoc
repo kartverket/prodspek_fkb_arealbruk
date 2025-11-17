@@ -143,7 +143,7 @@ image::figurer/alpinbakke2.png[link=figurer/alpinbakke2.png, Alt="Eksempel på u
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -193,9 +193,6 @@ image::figurer/anlegg2.png[link=figurer/anlegg2.png, Alt="Eksempel på registrer
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB-A minstestørrelse
-|Areal > 1000m2
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -210,6 +207,9 @@ image::figurer/anlegg2.png[link=figurer/anlegg2.png, Alt="Eksempel på registrer
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB-A minstestørrelse
+|Areal > 1000m2
  
 |===
  
@@ -308,7 +308,7 @@ image::figurer/anlegg2.png[link=figurer/anlegg2.png, Alt="Eksempel på registrer
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -455,7 +455,7 @@ image::figurer/campingplass.png[link=figurer/campingplass.png, Alt="Eksempel på
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -607,7 +607,7 @@ image::figurer/golfbane2.png[link=figurer/golfbane2.png, Alt="Eksempel på regis
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -755,7 +755,7 @@ image::figurer/gravplass.png[link=figurer/gravplass.png, Alt="Eksempler på regi
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -905,7 +905,7 @@ image::figurer/grustak2.png[link=figurer/grustak2.png, Alt="Eksempel på registr
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -1056,7 +1056,7 @@ image::figurer/industri2.png[link=figurer/industri2.png, Alt="Eksempler på regi
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -1089,16 +1089,6 @@ Omr&#229;der med lekeapparater i private hager (villa/enebolig) registreres ikke
  
  
 '''
-.Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager.
-image::figurer/lekeplass_feil.png[link=figurer/lekeplass_feil.png, Alt="Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager."]
- 
- 
-'''
-.Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde.
-image::figurer/lekeplass_idrettsplass.png[link=figurer/lekeplass_idrettsplass.png, Alt="Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde."]
- 
- 
-'''
 .Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse.
 image::figurer/lekeplass1.png[link=figurer/lekeplass1.png, Alt="Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse."]
  
@@ -1106,6 +1096,16 @@ image::figurer/lekeplass1.png[link=figurer/lekeplass1.png, Alt="Eksempel på reg
 '''
 .Eksempel på registrering av Lekeplass i forbindelse med en skole.
 image::figurer/lekeplass2.png[link=figurer/lekeplass2.png, Alt="Eksempel på registrering av Lekeplass i forbindelse med en skole."]
+ 
+ 
+'''
+.Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager.
+image::figurer/lekeplass_feil.png[link=figurer/lekeplass_feil.png, Alt="Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager."]
+ 
+ 
+'''
+.Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde.
+image::figurer/lekeplass_idrettsplass.png[link=figurer/lekeplass_idrettsplass.png, Alt="Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde."]
  
  
  
@@ -1222,7 +1222,7 @@ image::figurer/lekeplass2.png[link=figurer/lekeplass2.png, Alt="Eksempel på reg
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -1372,7 +1372,7 @@ image::figurer/park2.png[link=figurer/park2.png, Alt="Eksempel på registrering 
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -1513,7 +1513,7 @@ image::figurer/skytebane.png[link=figurer/skytebane.png, Alt="Eksempel på regis
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -1538,18 +1538,37 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/fig
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 For &#229; sikre god fullstendighet og korrekt tolking ved 
 fotogrammetrisk registrering, anbefales det &#229; utarbeide manus.
- 
-Omfatter ogs&#229; sport- og idrettsomr&#229;der i tilknytning til skoler og 
-omr&#229;der tilrettelagt for motorsport (for eks motorcrossbane).
+
+Omfatter ogs&#229; sport- og idrettsomr&#229;der i tilknytning til skoler, omr&#229;der tilrettelagt for frisbeegolf, putball/fotballgolf og motorsport (for eksempel motorcrossbane), samt ridesportsanlegg og travbaner.
 
 Ytterkant (gresskant, gruskant, asfaltkant) av banene registreres 
 som Idrettsanlegg (se FKB-BygnAnlegg). Selve oppmerkingen av 
-banene skal ikke registreres
+banene skal ikke registreres.
  
  
 '''
 .Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg.
 image::figurer/idrettsplass1.png[link=figurer/idrettsplass1.png, Alt="Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg."]
+ 
+ 
+'''
+.Illustrasjon av hvordan områder for frisbeegolf skal registreres.
+image::figurer/idrettsplass2_frisbeegolf.png[link=figurer/idrettsplass2_frisbeegolf.png, Alt="Illustrasjon av hvordan områder for frisbeegolf skal registreres."]
+ 
+ 
+'''
+.Illustrasjon av hvordan områder for putball/fotballgolf skal registreres.  
+image::figurer/idrettsplass3_putball.png[link=figurer/idrettsplass3_putball.png, Alt="Illustrasjon av hvordan områder for putball/fotballgolf skal registreres.  "]
+ 
+ 
+'''
+.Illustrasjon av hvordan områder for ridesport skal registreres. Oftest grusunderlag med hinder.
+image::figurer/idrettsplass4_ridesport.png[link=figurer/idrettsplass4_ridesport.png, Alt="Illustrasjon av hvordan områder for ridesport skal registreres. Oftest grusunderlag med hinder."]
+ 
+ 
+'''
+.Illustrasjon av hvordan områder for travsport skal registreres.
+image::figurer/idrettsplass5_travbane.png[link=figurer/idrettsplass5_travbane.png, Alt="Illustrasjon av hvordan områder for travsport skal registreres."]
  
  
  
@@ -1666,7 +1685,7 @@ image::figurer/idrettsplass1.png[link=figurer/idrettsplass1.png, Alt="Eksempel p
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -1702,9 +1721,6 @@ image::figurer/steintipp.png[link=figurer/steintipp.png, Alt="Eksempel på regis
 ==== Føringer
 [cols="h,2"]
 |===
-|FKB-A minstestørrelse
-|Areal > 1000m2
- 
 |FKB-A
 |Påkrevd registrering
  
@@ -1716,6 +1732,9 @@ image::figurer/steintipp.png[link=figurer/steintipp.png, Alt="Eksempel på regis
  
 |FKB-D
 |Påkrevd registrering
+ 
+|FKB-A minstestørrelse
+|Areal > 1000m2
  
 |===
  
@@ -1814,7 +1833,7 @@ image::figurer/steintipp.png[link=figurer/steintipp.png, Alt="Eksempel på regis
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface
@@ -1955,7 +1974,7 @@ Merknad: Inngikk fram til FKB 4.61 som en del av Industriomr&#229;de, men b&#248
 |eksternpeker
 |URI
 |..EKSTERNPEKER
-|[1..1]
+|[0..1]
  
 |område
 |GM_Surface

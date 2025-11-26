@@ -20,12 +20,12 @@ Alpinbakke skal registreres fullstendig, avgrensingen skal v&#230;re i samsvar m
  
  
 '''
-.Eksempel på riktig registrering av Alpinbakke.
+.Eksempel på riktig registrering av Alpinbakke
 image::figurer/alpinbakke1.png[link=figurer/alpinbakke1.png, Alt="Eksempel på riktig registrering av Alpinbakke."]
  
  
 '''
-.Eksempel på ufullstendig registrering av alpinbakke. Alpinbakken skulle vært registrert helt til toppen av skitrekket. Siden det er vanskelig å tolke hvor nedfarten går i dette området burde det vært utarbeidet manus.
+.Eksempel på ufullstendig registrering av alpinbakke. Alpinbakken skulle vært registrert helt til toppen av skitrekket. Siden det er vanskelig å tolke hvor nedfarten går i dette området burde det vært utarbeidet manus
 image::figurer/alpinbakke2.png[link=figurer/alpinbakke2.png, Alt="Eksempel på ufullstendig registrering av alpinbakke. Alpinbakken skulle vært registrert helt til toppen av skitrekket. Siden det er vanskelig å tolke hvor nedfarten går i dette området burde det vært utarbeidet manus."]
  
  
@@ -179,13 +179,13 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
  
  
 '''
-.Eksempel på registrering av anleggsområde. Her er det riktig å registrere vegen som i prinsipp er ferdigbygd.
-image::figurer/anlegg1.png[link=figurer/anlegg1.png, Alt="Eksempel på registrering av anleggsområde. Her er det riktig å registrere vegen som i prinsipp er ferdigbygd."]
+.Eksempel på registrering av anleggsområde. Her er det riktig å registrere vegen som i prinsipp er ferdigbygd
+image::figurer/anlegg1.png[link=figurer/anlegg1.png, Alt="Eksempel på registrering av anleggsområde. Her er det riktig å registrere vegen som i prinsipp er ferdigbygd"]
  
  
 '''
-.Eksempel på registrering av anleggsområde. Her skal ikke den påbegynte vegen og grøfter registreres.
-image::figurer/anlegg2.png[link=figurer/anlegg2.png, Alt="Eksempel på registrering av anleggsområde. Her skal ikke den påbegynte vegen og grøfter registreres."]
+.Eksempel på registrering av anleggsområde. Her skal ikke den påbegynte vegen og grøfter registreres
+image::figurer/anlegg2.png[link=figurer/anlegg2.png, Alt="Eksempel på registrering av anleggsområde. Her skal ikke den påbegynte vegen og grøfter registreres"]
  
  
  
@@ -337,8 +337,8 @@ Campingplassen skal registreres fullstendig. Interne veger og fellesarealer skal
  
  
 '''
-.Eksempel på registrering av Campingplass. Her vises også at arealbruk inne i andre arealbruk skal registreres, her representert av en Lekeplass inne på campingplassen.
-image::figurer/campingplass.png[link=figurer/campingplass.png, Alt="Eksempel på registrering av Campingplass. Her vises også at arealbruk inne i andre arealbruk skal registreres, her representert av en Lekeplass inne på campingplassen."]
+.Eksempel på registrering av Campingplass. Her vises også at arealbruk inne i andre arealbruk skal registreres, her representert av en Lekeplass inne på campingplassen
+image::figurer/campingplass.png[link=figurer/campingplass.png, Alt="Eksempel på registrering av Campingplass. Her vises også at arealbruk inne i andre arealbruk skal registreres, her representert av en Lekeplass inne på campingplassen"]
  
  
  
@@ -480,7 +480,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/fig
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
 For &#229; sikre korrekt avgrensing ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus. 
 
-Golfbanen skal registreres fullstendig. Interne veger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten, ikke bare spilleflaten p&#229; de forskjellige hullene
+Golfbanen skal registreres fullstendig. Interne veger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten, ikke bare spilleflaten p&#229; de forskjellige hullene.
  
  
 '''
@@ -633,7 +633,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/fig
 Avgrensingen kan v&#230;re diffus, spesielt for nyere omr&#229;der og gravplasser uten inngjerding. For &#229; sikre god fullstendighet og 
 korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus. 
 
-Gravplassen skal registreres fullstendig. Interne veger, gangveger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten
+Gravplassen skal registreres fullstendig. Interne veger, gangveger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten.
  
  
 '''
@@ -782,13 +782,13 @@ Leirtak og Steinbrudd er utg&#229;tt som egne objekttyper og skal registreres so
  
  
 '''
-.Eksempel på registrering av grustak.
-image::figurer/grustak1.png[link=figurer/grustak1.png, Alt="Eksempel på registrering av grustak."]
+.Eksempel på registrering av grustak
+image::figurer/grustak1.png[link=figurer/grustak1.png, Alt="Eksempel på registrering av grustak"]
  
  
 '''
-.Eksempel på registrering av grustak (tidligere steinbrudd).
-image::figurer/grustak2.png[link=figurer/grustak2.png, Alt="Eksempel på registrering av grustak (tidligere steinbrudd)."]
+.Eksempel på registrering av grustak (tidligere steinbrudd)
+image::figurer/grustak2.png[link=figurer/grustak2.png, Alt="Eksempel på registrering av grustak (tidligere steinbrudd)"]
  
  
  
@@ -1089,22 +1089,22 @@ Omr&#229;der med lekeapparater i private hager (villa/enebolig) registreres ikke
  
  
 '''
-.Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse.
-image::figurer/lekeplass1.png[link=figurer/lekeplass1.png, Alt="Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse."]
+.Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse
+image::figurer/lekeplass1.png[link=figurer/lekeplass1.png, Alt="Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse"]
  
  
 '''
-.Eksempel på registrering av Lekeplass i forbindelse med en skole.
+.Eksempel på registrering av Lekeplass i forbindelse med en skole
 image::figurer/lekeplass2.png[link=figurer/lekeplass2.png, Alt="Eksempel på registrering av Lekeplass i forbindelse med en skole."]
  
  
 '''
-.Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager.
+.Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager
 image::figurer/lekeplass_feil.png[link=figurer/lekeplass_feil.png, Alt="Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager."]
  
  
 '''
-.Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde.
+.Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde
 image::figurer/lekeplass_idrettsplass.png[link=figurer/lekeplass_idrettsplass.png, Alt="Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde."]
  
  
@@ -1245,7 +1245,7 @@ image::http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/fig
  
 [discrete]
 ==== Tilleggsinformasjon for fotogrammetrisk registrering
-Avgrensingen kan v&#230;re diffus. For &#229; sikre god fullstendighet og korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus
+Avgrensingen kan v&#230;re diffus. For &#229; sikre god fullstendighet og korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus.
  
  
 '''
@@ -1547,28 +1547,28 @@ banene skal ikke registreres.
  
  
 '''
-.Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg.
-image::figurer/idrettsplass1.png[link=figurer/idrettsplass1.png, Alt="Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg."]
+.Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg
+image::figurer/idrettsplass1.png[link=figurer/idrettsplass1.png, Alt="Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg"]
  
  
 '''
-.Illustrasjon av hvordan områder for frisbeegolf skal registreres.
-image::figurer/idrettsplass2_frisbeegolf.png[link=figurer/idrettsplass2_frisbeegolf.png, Alt="Illustrasjon av hvordan områder for frisbeegolf skal registreres."]
+.Illustrasjon av hvordan områder for frisbeegolf skal registreres
+image::figurer/idrettsplass2_frisbeegolf.png[link=figurer/idrettsplass2_frisbeegolf.png, Alt="Illustrasjon av hvordan områder for frisbeegolf skal registreres"]
  
  
 '''
-.Illustrasjon av hvordan områder for putball/fotballgolf skal registreres.  
-image::figurer/idrettsplass3_putball.png[link=figurer/idrettsplass3_putball.png, Alt="Illustrasjon av hvordan områder for putball/fotballgolf skal registreres.  "]
+.Illustrasjon av hvordan områder for putball/fotballgolf skal registreres  
+image::figurer/idrettsplass3_putball.png[link=figurer/idrettsplass3_putball.png, Alt="Illustrasjon av hvordan områder for putball/fotballgolf skal registreres"]
  
  
 '''
-.Illustrasjon av hvordan områder for ridesport skal registreres. Oftest grusunderlag med hinder.
-image::figurer/idrettsplass4_ridesport.png[link=figurer/idrettsplass4_ridesport.png, Alt="Illustrasjon av hvordan områder for ridesport skal registreres. Oftest grusunderlag med hinder."]
+.Illustrasjon av hvordan områder for ridesport skal registreres. Oftest grusunderlag med hinder
+image::figurer/idrettsplass4_ridesport.png[link=figurer/idrettsplass4_ridesport.png, Alt="Illustrasjon av hvordan områder for ridesport skal registreres. Oftest grusunderlag med hinder"]
  
  
 '''
-.Illustrasjon av hvordan områder for travsport skal registreres.
-image::figurer/idrettsplass5_travbane.png[link=figurer/idrettsplass5_travbane.png, Alt="Illustrasjon av hvordan områder for travsport skal registreres."]
+.Illustrasjon av hvordan områder for travsport skal registreres
+image::figurer/idrettsplass5_travbane.png[link=figurer/idrettsplass5_travbane.png, Alt="Illustrasjon av hvordan områder for travsport skal registreres"]
  
  
  

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="generator" content="Asciidoctor 2.0.26">
 <meta name="author" content="Geovekst">
 <title>Registreringsinstruks: Fotogrammetrisk FKB-Arealbruk</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -117,7 +117,6 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
@@ -141,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -163,6 +162,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -219,6 +219,7 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
 .listingblock:hover code[data-lang]::before{display:block}
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
@@ -328,7 +329,7 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
@@ -439,7 +440,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Registreringsinstruks: Fotogrammetrisk FKB-Arealbruk</h1>
 <div class="details">
 <span id="author" class="author">Geovekst</span><br>
-<span id="revdate">5.0 - 2024-01-01</span>
+<span id="revdate">5.0 - 2026-01-01</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Innholdsfortegnelse</div>
@@ -449,8 +450,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_innledning">1.1. Innledning</a></li>
 <li><a href="#_endringslogg">1.2. Endringslogg</a>
 <ul class="sectlevel3">
-<li><a href="#_endringer_fra_versjon_5_0_2022_01_01_til_versjon_5_0_2024_01_01">1.2.1. Endringer fra versjon 5.0 2022-01-01 til versjon 5.0 2024-01-01</a></li>
-<li><a href="#_endringer_fra_versjon_4_6_2018_01_01_til_versjon_5_0_2022_01_01">1.2.2. Endringer fra versjon 4.6 2018-01-01 til versjon 5.0 2022-01-01</a></li>
+<li><a href="#_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_0_2026_01_01">1.2.1. Endringer fra versjon 5.0 2024-01-01 til versjon 5.0 2026-01-01</a></li>
+<li><a href="#_endringer_fra_versjon_5_0_2022_01_01_til_versjon_5_0_2024_01_01">1.2.2. Endringer fra versjon 5.0 2022-01-01 til versjon 5.0 2024-01-01</a></li>
 </ul>
 </li>
 </ul>
@@ -507,10 +508,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p><strong>Publisert</strong>: 2023-12-21<br>
-<strong>Nyeste gyldige versjon av dokumentet finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2024-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2024-01-01</a><br>
-<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2024-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2024-01-01</a><br>
-<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2022-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2022-01-01</a><br>
+<p><strong>Publisert</strong>: 2025-12-01<br>
+<strong>Nyeste gyldige versjon av dokumentet finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2026-01-01</a><br>
+<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2026-01-01</a><br>
+<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2024-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Arealbruk/5.0/Fotogrammetrisk_2024-01-01</a><br>
 <strong>Tilhørende produktspesifikasjon finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Arealbruk/5.0" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-Arealbruk/5.0</a><br>
 - <a href="https://sosi.geonorge.no/uml-modeller/sosi-del-3-produktspesifikasjoner/FKB-Arealbruk/5.0">HTML-visning av UML-modellen</a><br></p>
 </div>
@@ -535,22 +536,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_endringslogg">1.2. Endringslogg</h3>
 <div class="sect3">
-<h4 id="_endringer_fra_versjon_5_0_2022_01_01_til_versjon_5_0_2024_01_01">1.2.1. Endringer fra versjon 5.0 2022-01-01 til versjon 5.0 2024-01-01</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Kapittel 2 oppdatert med beskrivelse av registrering av egenskaper på flater med heleid geometri</p>
-</li>
-</ul>
+<h4 id="_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_0_2026_01_01">1.2.1. Endringer fra versjon 5.0 2024-01-01 til versjon 5.0 2026-01-01</h4>
+<div class="paragraph">
+<p>I kapittel 3.11 presiseres det at også frisbeegolf, putball/fotballgolf, ridesport og travbaner skal registreres som SportIdrettPlass. Det er lagt inn nye figurer som beskriver dette.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_endringer_fra_versjon_4_6_2018_01_01_til_versjon_5_0_2022_01_01">1.2.2. Endringer fra versjon 4.6 2018-01-01 til versjon 5.0 2022-01-01</h4>
+<h4 id="_endringer_fra_versjon_5_0_2022_01_01_til_versjon_5_0_2024_01_01">1.2.2. Endringer fra versjon 5.0 2022-01-01 til versjon 5.0 2024-01-01</h4>
 <div class="paragraph">
-<p>Se produktspesifikasjon for FKB-Arealbruk 5.0 for en oversikt over <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Arealbruk#trueendringer-siden-fkb-arealbruk-versjon-4-61-2018-01-01">endringer siden FKB-Arealbruk 4.61 2018-01-01</a>. Det er ikke gjort endringer når det gjelder bestemmelser for fotogrammetrisk registrering utover det som følger av endringene i produktspesifikasjonen.</p>
-</div>
-<div class="paragraph">
-<p>Den endringen som vil påvirke fotogrammetrisk registrering er innføring av heleid flategeoemtri. Reglene for avgrensning av flatene er de samme som før, men det skal ikke registreres noen egne avgrensningsobjekter. Posisjonsnøyaktigheten på flatene skal gjenspeile nøyktigheten på regstreringen av flateavgrensningene.</p>
+<p>Kapittel 2 oppdatert med beskrivelse av registrering av egenskaper på flater med heleid geometri.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -877,14 +871,14 @@ tolke avgrensingen av alpinbakke i snaufjellsomr&#229;der.</p>
 <div class="content">
 <a class="image" href="figurer/alpinbakke1.png"><img src="figurer/alpinbakke1.png" alt="alpinbakke1"></a>
 </div>
-<div class="title">Figur 2. Eksempel på riktig registrering av Alpinbakke.</div>
+<div class="title">Figur 2. Eksempel på riktig registrering av Alpinbakke</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/alpinbakke2.png"><img src="figurer/alpinbakke2.png" alt="alpinbakke2"></a>
 </div>
-<div class="title">Figur 3. Eksempel på ufullstendig registrering av alpinbakke. Alpinbakken skulle vært registrert helt til toppen av skitrekket. Siden det er vanskelig å tolke hvor nedfarten går i dette området burde det vært utarbeidet manus.</div>
+<div class="title">Figur 3. Eksempel på ufullstendig registrering av alpinbakke. Alpinbakken skulle vært registrert helt til toppen av skitrekket. Siden det er vanskelig å tolke hvor nedfarten går i dette området burde det vært utarbeidet manus</div>
 </div>
 <h4 id="_føringer" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1029,7 +1023,7 @@ tolke avgrensingen av alpinbakke i snaufjellsomr&#229;der.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -1075,14 +1069,14 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <div class="content">
 <a class="image" href="figurer/anlegg1.png"><img src="figurer/anlegg1.png" alt="anlegg1"></a>
 </div>
-<div class="title">Figur 5. Eksempel på registrering av anleggsområde. Her er det riktig å registrere vegen som i prinsipp er ferdigbygd.</div>
+<div class="title">Figur 5. Eksempel på registrering av anleggsområde. Her er det riktig å registrere vegen som i prinsipp er ferdigbygd</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/anlegg2.png"><img src="figurer/anlegg2.png" alt="anlegg2"></a>
 </div>
-<div class="title">Figur 6. Eksempel på registrering av anleggsområde. Her skal ikke den påbegynte vegen og grøfter registreres.</div>
+<div class="title">Figur 6. Eksempel på registrering av anleggsområde. Her skal ikke den påbegynte vegen og grøfter registreres</div>
 </div>
 <h4 id="_føringer_2" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1091,10 +1085,6 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <col style="width: 66.6667%;">
 </colgroup>
 <tbody>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">FKB-A minstestørrelse</p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Areal &gt; 1000m2</p></td>
-</tr>
 <tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">FKB-A</p></th>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Påkrevd registrering</p></td>
@@ -1114,6 +1104,10 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">FKB-D</p></th>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Påkrevd registrering</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">FKB-A minstestørrelse</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Areal &gt; 1000m2</p></td>
 </tr>
 </tbody>
 </table>
@@ -1235,7 +1229,7 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -1271,7 +1265,7 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <div class="content">
 <a class="image" href="figurer/campingplass.png"><img src="figurer/campingplass.png" alt="campingplass"></a>
 </div>
-<div class="title">Figur 8. Eksempel på registrering av Campingplass. Her vises også at arealbruk inne i andre arealbruk skal registreres, her representert av en Lekeplass inne på campingplassen.</div>
+<div class="title">Figur 8. Eksempel på registrering av Campingplass. Her vises også at arealbruk inne i andre arealbruk skal registreres, her representert av en Lekeplass inne på campingplassen</div>
 </div>
 <h4 id="_føringer_3" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1416,7 +1410,7 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -1445,7 +1439,7 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <p>For &#229; sikre korrekt avgrensing ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus.</p>
 </div>
 <div class="paragraph">
-<p>Golfbanen skal registreres fullstendig. Interne veger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten, ikke bare spilleflaten p&#229; de forskjellige hullene</p>
+<p>Golfbanen skal registreres fullstendig. Interne veger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten, ikke bare spilleflaten p&#229; de forskjellige hullene.</p>
 </div>
 <hr>
 <div class="imageblock">
@@ -1604,7 +1598,7 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -1634,7 +1628,7 @@ Utbyggingsomr&#229;der kan/b&#248;r ogs&#229; i stor grad registreres i FKB-Tilt
 korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus.</p>
 </div>
 <div class="paragraph">
-<p>Gravplassen skal registreres fullstendig. Interne veger, gangveger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten</p>
+<p>Gravplassen skal registreres fullstendig. Interne veger, gangveger og tilh&#248;rende areal skal inng&#229; i arealbruksflaten.</p>
 </div>
 <hr>
 <div class="imageblock">
@@ -1786,7 +1780,7 @@ korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -1819,14 +1813,14 @@ korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide
 <div class="content">
 <a class="image" href="figurer/grustak1.png"><img src="figurer/grustak1.png" alt="grustak1"></a>
 </div>
-<div class="title">Figur 15. Eksempel på registrering av grustak.</div>
+<div class="title">Figur 15. Eksempel på registrering av grustak</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/grustak2.png"><img src="figurer/grustak2.png" alt="grustak2"></a>
 </div>
-<div class="title">Figur 16. Eksempel på registrering av grustak (tidligere steinbrudd).</div>
+<div class="title">Figur 16. Eksempel på registrering av grustak (tidligere steinbrudd)</div>
 </div>
 <h4 id="_føringer_6" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1971,7 +1965,7 @@ korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -2157,7 +2151,7 @@ utarbeide manus.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -2197,30 +2191,30 @@ utarbeide manus.</p>
 <hr>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="figurer/lekeplass_feil.png"><img src="figurer/lekeplass_feil.png" alt="lekeplass feil"></a>
-</div>
-<div class="title">Figur 21. Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager.</div>
-</div>
-<hr>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="figurer/lekeplass_idrettsplass.png"><img src="figurer/lekeplass_idrettsplass.png" alt="lekeplass idrettsplass"></a>
-</div>
-<div class="title">Figur 22. Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde.</div>
-</div>
-<hr>
-<div class="imageblock">
-<div class="content">
 <a class="image" href="figurer/lekeplass1.png"><img src="figurer/lekeplass1.png" alt="lekeplass1"></a>
 </div>
-<div class="title">Figur 23. Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse.</div>
+<div class="title">Figur 21. Eksempel på registrering av flere mindre Lekeplass i forbindelse med blokkbebyggelse</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/lekeplass2.png"><img src="figurer/lekeplass2.png" alt="lekeplass2"></a>
 </div>
-<div class="title">Figur 24. Eksempel på registrering av Lekeplass i forbindelse med en skole.</div>
+<div class="title">Figur 22. Eksempel på registrering av Lekeplass i forbindelse med en skole</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/lekeplass_feil.png"><img src="figurer/lekeplass_feil.png" alt="lekeplass feil"></a>
+</div>
+<div class="title">Figur 23. Eksempel på feil registrering av Lekeplass rundt for eksempel lekeapparater og fotballmål i private hager</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/lekeplass_idrettsplass.png"><img src="figurer/lekeplass_idrettsplass.png" alt="lekeplass idrettsplass"></a>
+</div>
+<div class="title">Figur 24. Eksempel på registrering av Lekeplass (de to til venstre) og SportIdrettPlass (de to til høyre) i et skoleområde</div>
 </div>
 <h4 id="_føringer_8" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -2365,7 +2359,7 @@ utarbeide manus.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -2391,7 +2385,7 @@ utarbeide manus.</p>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_9" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
-<p>Avgrensingen kan v&#230;re diffus. For &#229; sikre god fullstendighet og korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus</p>
+<p>Avgrensingen kan v&#230;re diffus. For &#229; sikre god fullstendighet og korrekt tolking ved fotogrammetrisk registrering, anbefales det &#229; utarbeide manus.</p>
 </div>
 <hr>
 <div class="imageblock">
@@ -2550,7 +2544,7 @@ utarbeide manus.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -2724,7 +2718,7 @@ utarbeide manus.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -2754,20 +2748,47 @@ utarbeide manus.</p>
 fotogrammetrisk registrering, anbefales det &#229; utarbeide manus.</p>
 </div>
 <div class="paragraph">
-<p>Omfatter ogs&#229; sport- og idrettsomr&#229;der i tilknytning til skoler og
-omr&#229;der tilrettelagt for motorsport (for eks motorcrossbane).</p>
+<p>Omfatter ogs&#229; sport- og idrettsomr&#229;der i tilknytning til skoler, omr&#229;der tilrettelagt for frisbeegolf, putball/fotballgolf og motorsport (for eksempel motorcrossbane), samt ridesportsanlegg og travbaner.</p>
 </div>
 <div class="paragraph">
 <p>Ytterkant (gresskant, gruskant, asfaltkant) av banene registreres
 som Idrettsanlegg (se FKB-BygnAnlegg). Selve oppmerkingen av
-banene skal ikke registreres</p>
+banene skal ikke registreres.</p>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer/idrettsplass1.png"><img src="figurer/idrettsplass1.png" alt="idrettsplass1"></a>
 </div>
-<div class="title">Figur 31. Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg.</div>
+<div class="title">Figur 31. Eksempel på registrering av SportIdrettPlass. Ytterkant til banene (for eksempel gresskant, gruskant eller asfaltkant) beskrives med objekttypen Idrettsanlegg i FKB-BygnAnlegg</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/idrettsplass2_frisbeegolf.png"><img src="figurer/idrettsplass2_frisbeegolf.png" alt="idrettsplass2 frisbeegolf"></a>
+</div>
+<div class="title">Figur 32. Illustrasjon av hvordan områder for frisbeegolf skal registreres</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/idrettsplass3_putball.png"><img src="figurer/idrettsplass3_putball.png" alt="idrettsplass3 putball"></a>
+</div>
+<div class="title">Figur 33. Illustrasjon av hvordan områder for putball/fotballgolf skal registreres</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/idrettsplass4_ridesport.png"><img src="figurer/idrettsplass4_ridesport.png" alt="idrettsplass4 ridesport"></a>
+</div>
+<div class="title">Figur 34. Illustrasjon av hvordan områder for ridesport skal registreres. Oftest grusunderlag med hinder</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer/idrettsplass5_travbane.png"><img src="figurer/idrettsplass5_travbane.png" alt="idrettsplass5 travbane"></a>
+</div>
+<div class="title">Figur 35. Illustrasjon av hvordan områder for travsport skal registreres</div>
 </div>
 <h4 id="_føringer_11" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -2912,7 +2933,7 @@ banene skal ikke registreres</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -2934,7 +2955,7 @@ banene skal ikke registreres</p>
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/figurer/objtype_steintipp.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/figurer/objtype_steintipp.png" alt="objtype steintipp"></a>
 </div>
-<div class="title">Figur 32. Illustrasjon fra produktspesifikasjon av Steintipp</div>
+<div class="title">Figur 36. Illustrasjon fra produktspesifikasjon av Steintipp</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_11" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -2945,7 +2966,7 @@ banene skal ikke registreres</p>
 <div class="content">
 <a class="image" href="figurer/steintipp.png"><img src="figurer/steintipp.png" alt="steintipp"></a>
 </div>
-<div class="title">Figur 33. Eksempel på registrering av steintipp i forbindelse med gruvedrift</div>
+<div class="title">Figur 37. Eksempel på registrering av steintipp i forbindelse med gruvedrift</div>
 </div>
 <h4 id="_føringer_12" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -2954,10 +2975,6 @@ banene skal ikke registreres</p>
 <col style="width: 66.6667%;">
 </colgroup>
 <tbody>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">FKB-A minstestørrelse</p></th>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Areal &gt; 1000m2</p></td>
-</tr>
 <tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">FKB-A</p></th>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Påkrevd registrering</p></td>
@@ -2973,6 +2990,10 @@ banene skal ikke registreres</p>
 <tr>
 <th class="tableblock halign-left valign-top"><p class="tableblock">FKB-D</p></th>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Påkrevd registrering</p></td>
+</tr>
+<tr>
+<th class="tableblock halign-left valign-top"><p class="tableblock">FKB-A minstestørrelse</p></th>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Areal &gt; 1000m2</p></td>
 </tr>
 </tbody>
 </table>
@@ -3094,7 +3115,7 @@ banene skal ikke registreres</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -3119,7 +3140,7 @@ banene skal ikke registreres</p>
 <div class="content">
 <a class="image" href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/figurer/objtype_transformatorstasjon.png"><img src="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Arealbruk/5.0/figurer/objtype_transformatorstasjon.png" alt="objtype transformatorstasjon"></a>
 </div>
-<div class="title">Figur 34. Illustrasjon fra produktspesifikasjon av Transformatorstasjon</div>
+<div class="title">Figur 38. Illustrasjon fra produktspesifikasjon av Transformatorstasjon</div>
 </div>
 <h4 id="_tilleggsinformasjon_for_fotogrammetrisk_registrering_12" class="discrete">Tilleggsinformasjon for fotogrammetrisk registrering</h4>
 <div class="paragraph">
@@ -3268,7 +3289,7 @@ banene skal ikke registreres</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">eksternpeker</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">URI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..EKSTERNPEKER</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">område</p></td>
@@ -3652,7 +3673,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-12-20 14:21:06 +0100
+Last updated 2025-11-26 11:14:00 +0100
 </div>
 </div>
 </body>

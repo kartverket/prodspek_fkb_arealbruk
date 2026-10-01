@@ -21,7 +21,7 @@ FKB-Arealbruk beskriver den fysiske bruken av et areal. Datasettet er ikke helde
 
 Markslagsbeskrivelser kartlegges i datasettet FKB-AR5 (arealtilstand, bonitet, markslag og mineralske råstoffer). Arealplandata (kommuneplaner, reguleringsplaner osv.) viser juridiske bestemmelser om hvordan et område skal disponeres. FKB-Arealbruk er viser altså en tredje type kartlegging av et areal der det fokuseres på den fysiske bruken av et geografisk område uavhengig av jordas produksjonsevne eller hva området er planlagt/bestemt brukt til. Eksempl på dette kan være et utbyggingsområde som i FKB-Arealbruk vil kodes som et anleggsområde, uavhengig av om dette arealstykke egner seg som fulldyrka areal og hva området er regulert til i plandataene. 
 
-Mye av detaljinformasjonen om registrering av de ulike objekttypene i FKB er samlet i egne Fotogrammetriske registreringsinstrukser. Fotogrammetrisk registreringsinstruks for {datasett} 5.0 finnes på {reginstr-url}/Fotogrammetrisk_2022-01-01[{reginstr-url}/Fotogrammetrisk_2022-01-01].
+Mye av detaljinformasjonen om registrering av de ulike objekttypene i FKB er samlet i egne Fotogrammetriske registreringsinstrukser. 
 
 Denne produktspesifikasjonen er utarbeidet iht. SOSI produktspesifikasjoner – Krav og godkjenning 5.0 <<SOSI-KRAV>>. UML-modellen som ligger til grunn for innhold i diagrammene og dokumentasjon i kap. 5, følger reglene i SOSI Regler for UML-modellering, versjon 5.1 <<SOSI-UML>>. http://sosi.geonorge.no/veiledere/UML[Denne veilederen] gir hjelp til å lese UML-diagrammene.
 

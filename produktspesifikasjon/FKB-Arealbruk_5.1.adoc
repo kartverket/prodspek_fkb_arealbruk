@@ -1,7 +1,7 @@
 :datasett: FKB-Arealbruk
 :versjon: 5.1
 :skjemaversjon: 5.1
-:publisert: 2026-10-01
+:publisert: 2026-10-05
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-arealbruk/87b31015-a3de-4540-9b8b-cb1bf4e1cb3a
 :versjon-forrige: 5.0.2
 :versjon-erstattet-av: 5.1
@@ -149,7 +149,7 @@ include::modellRapport.adoc[]
 
 == Referansesystem
 
-include::../felles_prodspek/kap6_referansesystem.adoc[]
+Romlige referansesystem for håndteres likt for alle FKB-datasett. Se https://sosi.geonorge.no/Standarder/FKB_generell_del/#_romlige_referansesystem[Vedlegg B i FKB Generell del] for en beskrivelse.
 
 <<<
 

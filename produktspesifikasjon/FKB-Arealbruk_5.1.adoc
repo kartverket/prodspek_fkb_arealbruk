@@ -51,6 +51,8 @@ Endringsloggene for det enkelte datasett har som ambisjonsnivå å beskrive de v
 ==== Endringer FKB-Arealbruk versjon 5.0.2 til FKB-Arealbruk 5.1
 
 * Lagt inn Lufthavn som ny objekttype
+* Fjernet realisering fra Areal 4.0 (SOSI del 2) som nå er en tilbaketrukket standard
+* Oppdatert kap 6 om referansesystem
 
 ==== Endringer FKB-Arealbruk versjon 5.0.1 til FKB-Arealbruk 5.0.2
 

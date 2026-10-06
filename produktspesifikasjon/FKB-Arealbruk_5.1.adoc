@@ -208,7 +208,7 @@ include::../felles_prodspek/kap13_metadata.adoc[]
 
 GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>. Realiseringen defineres av følgende filer:
 
-* link:{skjema-url}/FKBArealbruk.xsd[GML-Skjema]
+* link:{skjema-url}/FKBArealbruk.xsd[{skjema-url}/FKBArealbruk.xsd]
 * link:{skjema-url}/FKBArealbruk.sch[Schematron-Skjema]
 * link:{skjema-url}/eksempel/[Katalog med eksempelfiler]
 

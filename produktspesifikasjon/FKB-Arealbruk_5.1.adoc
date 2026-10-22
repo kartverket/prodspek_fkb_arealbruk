@@ -15,15 +15,22 @@ include::../felles_prodspek/filhode.adoc[]
 == Innledning, historikk og endringslogg
 
 === Innledning
-FKB-Arealbruk er en del av Felles Kartdatabase (FKB). FKB-spesifikasjonen er en serie produktspesifikasjoner for detaljerte basis geodata som samles inn og forvaltes gjennom Geovekst. Generelle beskrivelser for alle FKB-spesifikasjonene er samlet i FKB-Generell del <<FKB>>.
+FKB-Arealbruk er en del av Felles Kartdatabase (FKB). 
+FKB-spesifikasjonen er en serie produktspesifikasjoner for detaljerte basis geodata som samles inn og forvaltes gjennom Geovekst. 
+Generelle beskrivelser for alle FKB-spesifikasjonene er samlet i FKB-Generell del <<FKB>>.
 
 FKB-Arealbruk beskriver den fysiske bruken av et areal. Datasettet er ikke heldekkende. 
 
-Markslagsbeskrivelser kartlegges i datasettet FKB-AR5 (arealtilstand, bonitet, markslag og mineralske råstoffer). Arealplandata (kommuneplaner, reguleringsplaner osv.) viser juridiske bestemmelser om hvordan et område skal disponeres. FKB-Arealbruk er viser altså en tredje type kartlegging av et areal der det fokuseres på den fysiske bruken av et geografisk område uavhengig av jordas produksjonsevne eller hva området er planlagt/bestemt brukt til. Eksempl på dette kan være et utbyggingsområde som i FKB-Arealbruk vil kodes som et anleggsområde, uavhengig av om dette arealstykke egner seg som fulldyrka areal og hva området er regulert til i plandataene. 
+Markslagsbeskrivelser kartlegges i datasettet FKB-AR5 (arealtilstand, bonitet, markslag og mineralske råstoffer). 
+Arealplandata (kommuneplaner, reguleringsplaner osv.) viser juridiske bestemmelser om hvordan et område skal disponeres. 
+FKB-Arealbruk er viser altså en tredje type kartlegging av et areal der det fokuseres på den fysiske bruken av et geografisk område uavhengig av jordas produksjonsevne eller hva området er planlagt/bestemt brukt til. 
+Eksempl på dette kan være et utbyggingsområde som i FKB-Arealbruk vil kodes som et anleggsområde, uavhengig av om dette arealstykke egner seg som fulldyrka areal og hva området er regulert til i plandataene. 
 
 Mye av detaljinformasjonen om registrering av de ulike objekttypene i FKB er samlet i egne Fotogrammetriske registreringsinstrukser. 
 
-Denne produktspesifikasjonen er utarbeidet iht. SOSI produktspesifikasjoner – Krav og godkjenning 5.0 <<SOSI-KRAV>>. UML-modellen som ligger til grunn for innhold i diagrammene og dokumentasjon i kap. 5, følger reglene i SOSI Regler for UML-modellering, versjon 5.1 <<SOSI-UML>>. http://sosi.geonorge.no/veiledere/UML[Denne veilederen] gir hjelp til å lese UML-diagrammene.
+Denne produktspesifikasjonen er utarbeidet iht. SOSI produktspesifikasjoner – Krav og godkjenning 5.0 <<SOSI-KRAV>>. 
+UML-modellen som ligger til grunn for innhold i diagrammene og dokumentasjon i kap. 5, følger reglene i SOSI Regler for UML-modellering, versjon 5.1 <<SOSI-UML>>. 
+http://sosi.geonorge.no/veiledere/UML[Denne veilederen] gir hjelp til å lese UML-diagrammene.
 
 === Historikk
 
@@ -39,14 +46,14 @@ Tidligere versjoner:
 * FKB-Arealbruk versjon 5.0 - 2022-01-01
 * FKB-Arealbruk versjon 5.0.1 - 2022-01-01
 * FKB-Arealbruk versjon 5.0.2 - 2022-01-01
+* FKB-Arealbruk versjon 5.1 - 2027-01-01
 
 === Endringslogg
 
 ==== Innhold i endringsloggen
 
-FKB 5.0 er en ny hovedversjon av FKB. Dette innebærer at det er gjort større endringer i standarden. Det vil ikke være tilstrekkelig å lese endringsloggen for å få et helhetlig bilde av FKB 5.0 produktspesifikasjonene. For å få et komplett bilde av produktspesifikasjonen må man lese dokumentasjonen som en helhet, inkludert de gjennomgående endringene som er beskrevet i FKB Generell del 5.0 <<FKB>>.
-
-Endringsloggene for det enkelte datasett har som ambisjonsnivå å beskrive de viktigste endringene når det gjelder datainnhold (objekttyper) siden forrige versjon. Endringsloggen vil ikke inneholde alle detaljerte endringer på egenskapsnivå eller endringer når det gjelder utvekslingsformat,  datamodellering eller lignende. 
+Endringsloggen inneholder en detaljert beskrivelse av endringer fra forrige versjon av produktspesifikasjonen. 
+For endringer lenger tilbake i historikken henvises det til endringsloggen for de tidligere versjonene.
 
 ==== Endringer FKB-Arealbruk versjon 5.0.2 til FKB-Arealbruk 5.1
 
@@ -54,23 +61,6 @@ Endringsloggene for det enkelte datasett har som ambisjonsnivå å beskrive de v
 * Fjernet realisering fra Areal 4.0 (SOSI del 2) som nå er en tilbaketrukket standard
 * Oppdatert kap 6 om referansesystem
 
-==== Endringer FKB-Arealbruk versjon 5.0.1 til FKB-Arealbruk 5.0.2
-
-* Lagt inn manglende defaultCodeSpace-tag på egenskapen registreringsversjon i abstrakt featuretype Fellesegenskaper
-
-==== Endringer FKB-Arealbruk versjon 5.0 til FKB-Arealbruk 5.0.1
-
-* Feilretting: Endret mulitiplisitet på eksternpeker fra [1..1] til [0..1] på den abstrakte featuretypen ArealbrukGenerell
-
-==== Endringer fra FKB-Arealbruk versjon 4.61 til FKB-Arealbruk versjon 5.0
-
-* Oppdatert generelle konsepter fra FKB 5.0 generell del
-* Alle objekttyper modelleres med heleid flategeometri. Dette innebærer:
-** Påkrevd flategeometri og uten opsjonell punktgeometri
-** Objekttype Arealbruksgrense og ArealbruksgrenseFiktiv utgår 
-** Stedfestingskvalitet kodes på flateobjektet og gjelder da avgrensningen til flate-objektet
-* Alle objekttyper modelleres med eksternpeker (mulighet for å legge inn peker - i form av en URI - til objektet i et annet system)
-* Objekttype Transformatorstasjon innføres som en ny objekttype
 
 === Normative referanser
 
@@ -208,9 +198,9 @@ include::../felles_prodspek/kap13_metadata.adoc[]
 
 GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>. Realiseringen defineres av følgende filer:
 
-* link:{skjema-url}/FKBArealbruk.xsd[{skjema-url}/FKBArealbruk.xsd]
-* link:{skjema-url}/FKBArealbruk.sch[Schematron-Skjema]
-* link:{skjema-url}/eksempel/[Katalog med eksempelfiler]
+* link:{skjema-url}/FKBArealbruk.xsd[{skjema-url}/FKBArealbruk.xsd] (GML-applikasjonsskjema)
+* link:{skjema-url}/FKBArealbruk.sch[{skjema-url}/FKBArealbruk.sch] (Schematron-regler til validering av tilleggskrav til datainnhold og -struktur utover det som er definert i GML-skjemafil)
+
 
 [appendix]
 == SOSI-format-realisering
